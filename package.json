@@ -1,0 +1,21 @@
+{
+  "name": "appium-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "appium": "^3.1.1",
+    "appium-uiautomator2-driver": "^6.5.0",
+    "jest": "^29.7.0",
+    "jest-environment-node": "^29.7.0"
+  },
+  "dependencies": {
+    "webdriverio": "^7.30.0"
+  }
+}
