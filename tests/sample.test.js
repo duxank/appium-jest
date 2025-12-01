@@ -4,11 +4,11 @@
 test('set and read amount (100)', async () => {
   await global.mainPage.setAmount('100');
   const value = await global.mainPage.getAmount();
-  expect(value).toBeTruthy();
+  expect(value).toBe('100');
 });
 
 test('set and read amount (200)', async () => {
   await global.mainPage.setAmount('200');
   const value = await global.mainPage.getAmount();
-  expect(value).toBeTruthy();
+  expect(value).toBe('200');
 });
